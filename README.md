@@ -7,6 +7,13 @@ The project demonstrates end-to-end development skills including frontend integr
 
 ---
 
+## Author
+
+**Babloo Kumar**  
+Full-Stack Developer
+
+---
+
 ## Live Application
 
 - **Frontend (Netlify):**  
@@ -65,7 +72,7 @@ The project demonstrates end-to-end development skills including frontend integr
 ![Netlify](https://img.shields.io/badge/Frontend-Netlify-brightgreen)
 ![Render](https://img.shields.io/badge/Backend-Render-purple)
 
-## 📸 Screenshots
+## Screenshots
 
 ### Employee Management – Add & List Employees
 ![Employee Management](screenshots/01.jpeg)
@@ -100,6 +107,4 @@ hrms-lite/
 │
 ├── README.md
 └── .gitignore
-
-
 
