@@ -84,3 +84,20 @@ hrms-lite/
 ├── README.md
 └── .gitignore
 
+## 📸 Screenshots
+
+### Employee Management – Add & List Employees
+![Employee Management](screenshots/01.jpeg)
+
+### Employee List View
+![Employee List](screenshots/02.jpeg)
+
+### Attendance Management
+![Attendance Management](screenshots/03.jpeg)
+
+### API Root (Django REST Framework)
+![API Root](screenshots/04-api-root.jpeg)
+
+### Employees API Response
+![Employees API](screenshots/05-list-api.jpeg)
+
