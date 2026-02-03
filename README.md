@@ -65,6 +65,23 @@ The project demonstrates end-to-end development skills including frontend integr
 ![Netlify](https://img.shields.io/badge/Frontend-Netlify-brightgreen)
 ![Render](https://img.shields.io/badge/Backend-Render-purple)
 
+## 📸 Screenshots
+
+### Employee Management – Add & List Employees
+![Employee Management](screenshots/01.jpeg)
+
+### Employee List View
+![Employee List](screenshots/02.jpeg)
+
+### Attendance Management
+![Attendance Management](screenshots/03.jpeg)
+
+### API Root (Django REST Framework)
+![API Root](screenshots/04-api-root.jpeg)
+
+### Employees API Response
+![Employees API](screenshots/05-list-api.jpeg)
+
 ## Project Structure
 
 ```text
@@ -84,20 +101,5 @@ hrms-lite/
 ├── README.md
 └── .gitignore
 
-## 📸 Screenshots
 
-### Employee Management – Add & List Employees
-![Employee Management](screenshots/01.jpeg)
-
-### Employee List View
-![Employee List](screenshots/02.jpeg)
-
-### Attendance Management
-![Attendance Management](screenshots/03.jpeg)
-
-### API Root (Django REST Framework)
-![API Root](screenshots/04-api-root.jpeg)
-
-### Employees API Response
-![Employees API](screenshots/05-list-api.jpeg)
 
