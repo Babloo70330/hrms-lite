@@ -158,3 +158,10 @@ const attStatus = document.getElementById("att-status");
 
 loadEmployees();
 loadAttendance();
+
+
+
+function allowOnlyChars(input) {
+  // Allow only letters and spaces
+  input.value = input.value.replace(/[^a-zA-Z\s]/g, '');
+}
