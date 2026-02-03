@@ -53,7 +53,7 @@ Full-Stack Developer
 ### Frontend
 - HTML
 - CSS
-- Vanilla JavaScript
+- JavaScript
 
 ### Backend
 - Django
@@ -89,6 +89,22 @@ Full-Stack Developer
 ### Employees API Response
 ![Employees API](screenshots/05-list-api.jpeg)
 
+## Run Project Locally
+
+### Backend Setup
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+Backend will run at:
+http://127.0.0.1:8000/
+
+### Frontend Setup
+frontend/index.html
+
 ## Project Structure
 
 ```text
@@ -107,4 +123,5 @@ hrms-lite/
 │
 ├── README.md
 └── .gitignore
+
 
