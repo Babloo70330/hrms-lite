@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HRMS Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>HRMS Lite</h1>
+  <p>Human Resource Management System</p>
+</header>
+
+<br>
+<!-- ADD EMPLOYEE -->
+<section class="card">
+  <h2>Add Employee</h2>
+
+  <input id="employee_id" placeholder="Employee ID" />
+  <input id="full_name" placeholder="Full Name" />
+  <input id="email" placeholder="Email" />
+  <input id="department" placeholder="Department" />
+
+  <button onclick="addEmployee()">Add Employee</button>
+  <p id="emp-msg"></p>
+</section>
+
+<!-- SEARCH -->
+<input
+  id="emp-search"
+  class="search"
+  placeholder="Search employee..."
+  onkeyup="filterEmployees()"
+/>
+
+<!-- EMPLOYEE LIST -->
+<section class="card">
+  <h2>Employee List</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="employeeTable"></tbody>
+  </table>
+</section>
+
+<!-- MARK ATTENDANCE -->
+<section class="card">
+  <h2>Mark Attendance</h2>
+
+  <select id="att-employee"></select>
+  <input type="date" id="att-date" />
+  <select id="att-status">
+    <option value="Present">Present</option>
+    <option value="Absent">Absent</option>
+  </select>
+
+  <button onclick="markAttendance()">Mark Attendance</button>
+  <p id="att-msg"></p>
+</section>
+
+<!-- ATTENDANCE LIST -->
+<section class="card">
+  <h2>Attendance Records</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Employee</th>
+        <th>Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="attendanceTable"></tbody>
+  </table>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

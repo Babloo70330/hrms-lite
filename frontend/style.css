@@ -1,0 +1,102 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f1f5f9;
+  margin: 0;
+  padding: 30px;
+}
+
+header {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+header p {
+  color: #e5e7eb;
+}
+
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 24px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.search {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f8fafc;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+p {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
