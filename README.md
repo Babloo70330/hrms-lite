@@ -60,6 +60,10 @@ The project demonstrates end-to-end development skills including frontend integr
 - **Frontend:** Netlify
 
 ---
+![Django](https://img.shields.io/badge/Django-4.2-green)
+![DRF](https://img.shields.io/badge/DRF-API-blue)
+![Netlify](https://img.shields.io/badge/Frontend-Netlify-brightgreen)
+![Render](https://img.shields.io/badge/Backend-Render-purple)
 
 ## Project Structure
 
@@ -79,3 +83,4 @@ hrms-lite/
 │
 ├── README.md
 └── .gitignore
+
