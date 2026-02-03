@@ -92,6 +92,7 @@ Full-Stack Developer
 ## Run Project Locally
 
 ### Backend Setup
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
@@ -99,11 +100,11 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-Backend will run at:
-http://127.0.0.1:8000/
-
 ### Frontend Setup
 frontend/index.html
+
+Backend will run at:
+http://127.0.0.1:8000/
 
 ## Project Structure
 
@@ -123,5 +124,6 @@ hrms-lite/
 │
 ├── README.md
 └── .gitignore
+
 
 
