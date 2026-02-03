@@ -132,16 +132,17 @@ async function loadAttendance() {
     return;
   }
 
-  records.forEach(r => {
+records.forEach(r => {
   table.innerHTML += `
     <tr>
-      <td>${r.employee_code}</td>
+      <td>${r.employee}</td>
       <td>${r.employee_name}</td>
       <td>${r.date}</td>
       <td>${r.status}</td>
     </tr>
   `;
 });
+
 
 }
 
